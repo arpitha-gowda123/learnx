@@ -71,6 +71,7 @@ body{
   border:1px solid #ffffff;
   font-size: 16px;
   cursor: pointer;
+  align-items: center;
   border-radius: 25px;
 }
 
@@ -156,7 +157,7 @@ body{
 .login-page .box .form h5{
 	font-size: 16px;
 	color:#555555;
-	margin:10px 15px;
+	margin:10px 10px 10px;
 	font-weight: normal;
 }
 
@@ -184,6 +185,10 @@ body{
 	align-items: center;
   }
 
+  .container-fluid h5{
+	  color: #cccccc;
+	  text-align: start;
+	  margin: 10px;
 	  
   }
 /*responsive*/
