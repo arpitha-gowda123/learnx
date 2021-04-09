@@ -2,6 +2,7 @@ body{
 	font-family: 'IBM Plex Sans', sans-serif;
 	letter-spacing: 0.1em;
 	background-color: #1d2026;
+	text-align: center;
 }
 
 .login-page{
@@ -61,6 +62,7 @@ body{
 	font-size: 20px;
 	color:#25a4d4;
 	margin:0 0 15px;
+	
 }
 
 .login-page .box .left .register-btn,
@@ -103,12 +105,14 @@ body{
 	color:#8e95a5;
 	text-transform: lowercase;
 	margin:20px 0px 30px;
+	text-align: start;
 }
 
 .login-page .box .form .form-group{
 	width: 100%;
 	border-radius: 30%;
 	margin-bottom: 20px;
+	text-align: start;
 }
 
 .login-page .box .form .lost-password-form,
@@ -178,18 +182,16 @@ body{
 
 .social-icon  {
 	margin: 10px 15px;
+	align-items: center;
   }
   
   .container-fluid{
-	padding: 1% 15%;
 	align-items: center;
   }
 
   .container-fluid h5{
 	  color: #cccccc;
-	  text-align: start;
-	  margin: 10px;
-	  
+	  text-align: center; 
   }
 /*responsive*/
 
