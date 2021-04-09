@@ -156,7 +156,7 @@ body{
 .login-page .box .form h5{
 	font-size: 16px;
 	color:#555555;
-	margin:0 0 30px;
+	margin:10px 10px 10px;
 	font-weight: normal;
 }
 
@@ -173,18 +173,17 @@ body{
 	opacity:0;
 	overflow:hidden;
 }
+#footer
 
 .social-icon  {
 	margin: 10px 15px;
   }
   
   .container-fluid{
-	padding: 7% 15%;
+	padding: 1% 15%;
 	align-items: center;
   }
 
-  .container-fluid p{
-	  color: #cccccc;
 	  
   }
 /*responsive*/
@@ -213,6 +212,7 @@ body{
 	.login-page .box.slide-active .form{
 		right:auto;
 	}
+
 }
 
 @media(max-width: 364px)
