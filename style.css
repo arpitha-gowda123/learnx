@@ -174,62 +174,19 @@ body{
 	overflow:hidden;
 }
 
-.social-label{
-	padding-top: 20px;
-	padding-left : 50px;
-	padding-bottom: 10px;
-}
-
- .label-text {
-	color: white;
-	font-weight: 400;
-	font-size: 20px;
-	font-style: unset;
-	text-align: center;
-	display: inline-block;
-	margin-bottom: 2px;
-	margin-top: 2px;
-	
-}
-
-.google{
-	
-    padding-top: 10px;
-    width: 20px;
-    padding-bottom: 10px;
-    border-left-width: 10px;
-    border-right-width: 20px;
-    height: 20px;
-}
-
-.facebook{
-	padding-top: 10px;
-    width: 20px;
-    padding-bottom: 10px;
-    border-left-width: 10px;
-    border-right-width: 10px;
-    height: 20px;
-}
-
-.social-login img{
-	width: 40px;
-	height: 40px;
-	
-}
-
-.social-login .social-btn-wrap .social-icon .facebook .google{
-	flex:0 0 50%;
-	max-width: 50%;
-	display: flex;
-	justify-content: center;
+.social-icon  {
+	margin: 10px 15px;
+  }
+  
+  .container-fluid{
+	padding: 7% 15%;
 	align-items: center;
-	flex-direction: column;
-	padding:40px 0;
-}
+  }
 
-
-
-
+  .container-fluid p{
+	  color: #cccccc;
+	  
+  }
 /*responsive*/
 
 @media(max-width: 767px){
@@ -256,14 +213,7 @@ body{
 	.login-page .box.slide-active .form{
 		right:auto;
 	}
-	.social-login{
-		right: auto;
-		left: auto;
-	}
-	.social-login img{
-		height: 40px;
-		width: 40px;
-	}
+
 }
 
 @media(max-width: 364px)
@@ -274,4 +224,5 @@ body{
 	.login-page .box .form img{
 		width: 200px;
 	}
+	
 }
